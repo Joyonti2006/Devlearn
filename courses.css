@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+body{
+    background-color: #000f36;
+}
+
+/* <!--=========================================================
+-----------------------Header-area--------------------
+=========================================================--> */
+
+.nav_area{
+
+}
+.menu {
+    align-items: center;
+    padding: 10px 70px;
+    display: flex;
+    height: 100px;
+    background-color: #000f36;
+    border-bottom: 1px solid #0097e6;
+    position:fixed;
+    top: 0;
+    width: 120%;
+}
+.menu  .logo img{
+    height: 50px;
+}
+.menu ul {
+     margin-left: 35%;
+}
+.menu ul li{
+     display: inline-block;
+     padding:8px;
+}
+.menu ul li a{
+     font-size: 1.2rem;
+     color: #fff;
+
+}
+.menu ul li a:hover{
+    color: #f39c12;
+}
+.menu .course{
+    padding-bottom: 4px;
+    color: #f39c12;
+    border-bottom: 1px solid #f39c12;
+}
+.menu button{
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0097e6;;
+}
+.menu button a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+/* <!--=========================================================
+-------------------------------CARD---------------------------
+=========================================================--> */
+
+#card{
+    margin-left: 20px;
+margin-top: 100px;
+
+}
+
+.display-flex{
+ 
+display: flex;
+color:  #0097e6;
+
+}
+.flex-link{
+height: 840vh;
+    padding-top: 10px;
+    border-right: 1px solid #0097e6;
+
+}
+.flex-link li{
+
+    font-size: 20px;
+    text-align:left;
+    border:1px solid #0097e6;
+padding:20px 110px 10px 20px;
+
+}
+.flex-link li:hover{
+    box-shadow: 0px 4px 5px 0px  #0097e6;
+}
+
+.flex-link li a{
+    color: #0097e6;
+}
+
+/* --------------------------------------------card-------------------------- */
+
+#our-courses{
+margin-top: 40px;
+}
+
+
+
+
+
+.our-courses-card{
+    
+    margin:0 250px ;
+    margin-left: 30px;
+    display:grid;
+    flex-wrap: nowrap;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2rem;
+   
+}
+
+.our-courses-card-item{
+
+border:1px solid #0097e6;
+border-radius: 10px;
+padding: 20px;
+
+}
+.our-courses-card-item:hover{
+    box-shadow: 1px 0px 10px 0px  #0097e6;
+
+}
+
+
+
+
+
+.our-courses-card-item img{
+    height: 150px;
+
+
+}
+
+.our-courses-card-item p{
+padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#dcdde1;
+}
+.our-courses-card-item h6{
+padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#dcdde1;
+}
+.our-courses-card-item h2{
+padding-top: 10px;
+padding-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color:#dcdde1;
+}
+.nr-flex{
+display: flex;
+}
+.nr-flex h5{
+    color: #fff;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 64px;
+}
+
+
+.our-courses-card-item button{
+    border: none;
+    background-color:#0097e6 ;
+    height: 35px;
+    width: 100%;
+ border-radius: 10px;
+}
+.our-courses-card-item a{
+
+font-size: 20px;
+color: #fff;
+
+
+}
+
+
+
+
+
+
+
+
+ /* <!--=========================================================
+    --------------------Footer---------------------------
+ =========================================================-->  */
+
+ #footer-top-area{
+    margin: 50px;
+
+    }
+    
+    .footer-item {
+        padding-left: 30px;
+        padding-top: 40px;
+        color: #fff;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    
+    
+    .flex {
+        color: gray;
+    }
+    .flex img{
+        height: 60px;
+        padding-bottom: 20px;
+    }
+    .flex p{
+        line-height: 1.5rem;
+    }
+    .flex li{
+        padding: 6px;
+    }
+    
+    .footer_bottom {
+    
+        margin: 55px;
+        border-top: 1px solid #0097e6;
+    }
+    .footer-bottom-item {
+        display: flex;
+    
+        padding-top: 30px;
+        color: gray;
+    }
+    .footer-bottom-item p{
+        word-spacing: 6px;
+    }
+    .social_icon {
+        margin-left: 55%;
+    }
+    .social_icon i{
+     padding-left: 10px;
+     font-size: 27px;
+    }
+
+
+
+
+
+
+
+
